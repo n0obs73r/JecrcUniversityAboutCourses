@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/jecrc_university_image"
+        android:src="@drawable/image" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:layout_below="@id/image"
+        android:contentDescription="@string/jecrc_logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_below="@id/image"
+        android:text="@string/jecrc_university"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/name"
+        android:orientation="vertical"
+        android:id="@+id/list">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Address"
+            android:id="@+id/address"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faculty_of_enginnering"
+            android:textSize="20sp"
+            android:paddingTop="5dp"
+            android:id="@+id/courses"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_tech_cse_civil_ece_ee_mech"
+            android:id="@+id/btech"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_tech_lateral_entry"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_tech_cse_devops_automation_and_cloud_computing_xebia"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_tech_cse_artificial_intelligence_and_machine_learning_xebia"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_tech_cse_data_science_and_data_analytics_samatrix_io"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_tech_cse_big_data_and_data_analytics_xebia"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_tech_cse_artificial_intelligence_and_machine_learning_samatrix_io"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_tech_computer_science_and_business_systems_csbs_tcs"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_tech_cse_civil_ece_ee_mech"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_tech_cse_civil_ece_ee_mech"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_tech_cse_artificial_intelligence_and_machine_learning_ibm"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_tech_cse_internet_of_things_iot_ibm"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_tech_cse_big_data_and_data_analytics_ibm"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m_tech_cse_civil_ece_ee_mech"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+</ScrollView>
